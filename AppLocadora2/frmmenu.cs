@@ -41,7 +41,9 @@ namespace AppLocadora2
 
         private void btnreserva_Click(object sender, EventArgs e)
         {
-
+            frmreserva frmreserva = new frmreserva();
+            frmreserva.Show();
+            this.Hide();
         }
     }
 }

@@ -15,6 +15,40 @@ namespace AppLocadora2
         public frmreserva()
         {
             InitializeComponent();
+            DesativarCampos();
+        }
+
+        private void frmreserva_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnnovo_Click(object sender, EventArgs e)
+        {
+            AtivarCampos();
+        }
+        private void DesativarCampos()
+        {
+            txtcodigo.Enabled = false;
+            txtdata.Enabled = false;
+        }
+        private void AtivarCampos()
+        {
+            txtcodigo.Enabled = true;
+            txtdata.Enabled=true;
+        }
+
+        private void btnvoltar_Click(object sender, EventArgs e)
+        {
+            frmmenu frmmenu = new frmmenu();
+            frmmenu.Show();
+            this.Close();
+        }
+
+        private void btnlimpar_Click(object sender, EventArgs e)
+        {
+            txtdata.Clear();
+            txtcodigo.Clear();
         }
     }
 }

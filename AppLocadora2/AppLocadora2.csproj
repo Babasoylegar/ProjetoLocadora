@@ -52,6 +52,12 @@
     <Compile Include="frmcliente.Designer.cs">
       <DependentUpon>frmcliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmdiaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdiaria.Designer.cs">
+      <DependentUpon>frmdiaria.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmlogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmcliente.resx">
       <DependentUpon>frmcliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdiaria.resx">
+      <DependentUpon>frmdiaria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmlogin.resx">
       <DependentUpon>frmlogin.cs</DependentUpon>

@@ -24,3 +24,4 @@ C:\Users\Aluno\Desktop\AppLocadora2\AppLocadora2\obj\Debug\AppLocadora2.exe
 C:\Users\Aluno\Desktop\AppLocadora2\AppLocadora2\obj\Debug\AppLocadora2.pdb
 C:\Users\Aluno\Desktop\AppLocadora2\AppLocadora2\obj\Debug\AppLocadora2.frmsplash.resources
 C:\Users\Aluno\Desktop\AppLocadora2\AppLocadora2\obj\Debug\AppLocadora2.frmreserva.resources
+C:\Users\Aluno\Desktop\AppLocadora2\AppLocadora2\obj\Debug\AppLocadora2.frmdiaria.resources
