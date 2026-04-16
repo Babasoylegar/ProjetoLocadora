@@ -48,7 +48,8 @@ namespace AppLocadora2
         {
             frmmenu frmmenu = new frmmenu();
             frmmenu.Show();
-            
+            this.Hide();
+
         }
 
         private void btnlimpar_Click(object sender, EventArgs e)

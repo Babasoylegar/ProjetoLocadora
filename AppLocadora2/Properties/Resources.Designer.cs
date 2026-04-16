@@ -93,6 +93,16 @@ namespace AppLocadora2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap diaria1 {
+            get {
+                object obj = ResourceManager.GetObject("diaria1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap reserva {
             get {
                 object obj = ResourceManager.GetObject("reserva", resourceCulture);
@@ -106,6 +116,16 @@ namespace AppLocadora2.Properties {
         internal static System.Drawing.Bitmap sair {
             get {
                 object obj = ResourceManager.GetObject("sair", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Veiculo {
+            get {
+                object obj = ResourceManager.GetObject("Veiculo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

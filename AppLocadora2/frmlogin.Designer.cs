@@ -130,6 +130,7 @@
             this.txtsenha.Size = new System.Drawing.Size(149, 30);
             this.txtsenha.TabIndex = 2;
             this.txtsenha.TextChanged += new System.EventHandler(this.txtsenha_TextChanged);
+            this.txtsenha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtsenha_KeyDown);
             // 
             // frmlogin
             // 

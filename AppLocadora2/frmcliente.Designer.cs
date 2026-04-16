@@ -42,12 +42,13 @@
             this.btnnovo = new System.Windows.Forms.Button();
             this.lblprofissao = new System.Windows.Forms.Label();
             this.cbbprofissao = new System.Windows.Forms.ComboBox();
+            this.Cliente = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtcodigo
             // 
-            this.txtcodigo.Location = new System.Drawing.Point(122, 53);
+            this.txtcodigo.Location = new System.Drawing.Point(116, 75);
             this.txtcodigo.Name = "txtcodigo";
             this.txtcodigo.Size = new System.Drawing.Size(95, 20);
             this.txtcodigo.TabIndex = 0;
@@ -55,14 +56,14 @@
             // txtnome
             // 
             this.txtnome.AccessibleDescription = "";
-            this.txtnome.Location = new System.Drawing.Point(122, 101);
+            this.txtnome.Location = new System.Drawing.Point(116, 123);
             this.txtnome.Name = "txtnome";
             this.txtnome.Size = new System.Drawing.Size(127, 20);
             this.txtnome.TabIndex = 1;
             // 
             // txtendereco
             // 
-            this.txtendereco.Location = new System.Drawing.Point(122, 149);
+            this.txtendereco.Location = new System.Drawing.Point(116, 171);
             this.txtendereco.Name = "txtendereco";
             this.txtendereco.Size = new System.Drawing.Size(127, 20);
             this.txtendereco.TabIndex = 2;
@@ -71,7 +72,7 @@
             // 
             this.lblcodigo.AutoSize = true;
             this.lblcodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcodigo.Location = new System.Drawing.Point(35, 61);
+            this.lblcodigo.Location = new System.Drawing.Point(29, 83);
             this.lblcodigo.Name = "lblcodigo";
             this.lblcodigo.Size = new System.Drawing.Size(57, 16);
             this.lblcodigo.TabIndex = 3;
@@ -81,7 +82,7 @@
             // 
             this.lblnome.AutoSize = true;
             this.lblnome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblnome.Location = new System.Drawing.Point(35, 101);
+            this.lblnome.Location = new System.Drawing.Point(29, 123);
             this.lblnome.Name = "lblnome";
             this.lblnome.Size = new System.Drawing.Size(48, 16);
             this.lblnome.TabIndex = 4;
@@ -91,7 +92,7 @@
             // 
             this.lblendereco.AutoSize = true;
             this.lblendereco.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblendereco.Location = new System.Drawing.Point(35, 152);
+            this.lblendereco.Location = new System.Drawing.Point(29, 174);
             this.lblendereco.Name = "lblendereco";
             this.lblendereco.Size = new System.Drawing.Size(74, 16);
             this.lblendereco.TabIndex = 5;
@@ -99,7 +100,7 @@
             // 
             // mskcpf
             // 
-            this.mskcpf.Location = new System.Drawing.Point(122, 198);
+            this.mskcpf.Location = new System.Drawing.Point(116, 220);
             this.mskcpf.Mask = "000000000-00";
             this.mskcpf.Name = "mskcpf";
             this.mskcpf.Size = new System.Drawing.Size(95, 20);
@@ -109,7 +110,7 @@
             // 
             this.lblcpf.AutoSize = true;
             this.lblcpf.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcpf.Location = new System.Drawing.Point(35, 199);
+            this.lblcpf.Location = new System.Drawing.Point(29, 221);
             this.lblcpf.Name = "lblcpf";
             this.lblcpf.Size = new System.Drawing.Size(36, 16);
             this.lblcpf.TabIndex = 7;
@@ -118,6 +119,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.Controls.Add(this.Cliente);
             this.panel1.Controls.Add(this.btnvoltar);
             this.panel1.Controls.Add(this.btnlimpar);
             this.panel1.Controls.Add(this.btnnovo);
@@ -131,9 +133,9 @@
             this.panel1.Controls.Add(this.txtendereco);
             this.panel1.Controls.Add(this.txtnome);
             this.panel1.Controls.Add(this.txtcodigo);
-            this.panel1.Location = new System.Drawing.Point(249, 117);
+            this.panel1.Location = new System.Drawing.Point(249, 103);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(469, 330);
+            this.panel1.Size = new System.Drawing.Size(469, 344);
             this.panel1.TabIndex = 8;
             // 
             // btnvoltar
@@ -141,7 +143,7 @@
             this.btnvoltar.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnvoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnvoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnvoltar.Location = new System.Drawing.Point(295, 171);
+            this.btnvoltar.Location = new System.Drawing.Point(289, 193);
             this.btnvoltar.Name = "btnvoltar";
             this.btnvoltar.Size = new System.Drawing.Size(158, 44);
             this.btnvoltar.TabIndex = 14;
@@ -154,7 +156,7 @@
             this.btnlimpar.BackColor = System.Drawing.Color.LightCoral;
             this.btnlimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnlimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnlimpar.Location = new System.Drawing.Point(336, 238);
+            this.btnlimpar.Location = new System.Drawing.Point(330, 260);
             this.btnlimpar.Name = "btnlimpar";
             this.btnlimpar.Size = new System.Drawing.Size(86, 30);
             this.btnlimpar.TabIndex = 13;
@@ -167,7 +169,7 @@
             this.btnnovo.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnnovo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnnovo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnnovo.Location = new System.Drawing.Point(295, 101);
+            this.btnnovo.Location = new System.Drawing.Point(289, 123);
             this.btnnovo.Name = "btnnovo";
             this.btnnovo.Size = new System.Drawing.Size(158, 44);
             this.btnnovo.TabIndex = 12;
@@ -179,7 +181,7 @@
             // 
             this.lblprofissao.AutoSize = true;
             this.lblprofissao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblprofissao.Location = new System.Drawing.Point(35, 252);
+            this.lblprofissao.Location = new System.Drawing.Point(29, 274);
             this.lblprofissao.Name = "lblprofissao";
             this.lblprofissao.Size = new System.Drawing.Size(73, 16);
             this.lblprofissao.TabIndex = 11;
@@ -196,10 +198,20 @@
             "Auxiliar",
             "Diretor",
             "Copeiro"});
-            this.cbbprofissao.Location = new System.Drawing.Point(122, 247);
+            this.cbbprofissao.Location = new System.Drawing.Point(116, 269);
             this.cbbprofissao.Name = "cbbprofissao";
             this.cbbprofissao.Size = new System.Drawing.Size(121, 21);
             this.cbbprofissao.TabIndex = 10;
+            // 
+            // Cliente
+            // 
+            this.Cliente.AutoSize = true;
+            this.Cliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cliente.Location = new System.Drawing.Point(181, 30);
+            this.Cliente.Name = "Cliente";
+            this.Cliente.Size = new System.Drawing.Size(96, 29);
+            this.Cliente.TabIndex = 15;
+            this.Cliente.Text = "Cliente";
             // 
             // frmcliente
             // 
@@ -235,5 +247,6 @@
         private System.Windows.Forms.Button btnnovo;
         private System.Windows.Forms.Button btnvoltar;
         private System.Windows.Forms.Button btnlimpar;
+        private System.Windows.Forms.Label Cliente;
     }
 }

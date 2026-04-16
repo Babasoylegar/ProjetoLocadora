@@ -35,8 +35,6 @@ namespace AppLocadora2
 
         private void btnentrar_Click(object sender, EventArgs e)
         {
-
-           
             string usuario = txtusuario.Text;
             bool sucesso = int.TryParse(txtsenha.Text, out int senha);
 
@@ -57,5 +55,15 @@ namespace AppLocadora2
         {
             txtsenha.PasswordChar = '*';
         }
+        private void txtsenha_KeyDown(object sender, KeyEventArgs e)
+        {
+            // Verifica se a tecla pressionada foi o Enter
+            if (e.KeyCode == Keys.Enter)
+            {
+                // Executa o clique do botão de login
+                btnentrar.PerformClick();
+            }
+        }
+
     }
 }

@@ -45,5 +45,12 @@ namespace AppLocadora2
             frmreserva.Show();
             this.Hide();
         }
+
+        private void btnveiculo_Click(object sender, EventArgs e)
+        {
+            frmveiculo frmveiculo = new frmveiculo();
+            frmveiculo.Show();
+            this.Hide();
+        }
     }
 }

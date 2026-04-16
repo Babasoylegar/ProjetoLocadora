@@ -80,6 +80,7 @@
             this.Controls.Add(this.pgbsplash);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "frmsplash";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmsplash";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
