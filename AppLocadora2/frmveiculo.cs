@@ -59,5 +59,23 @@ namespace AppLocadora2
             frmmenu.Show();
             this.Hide();
         }
+        private void txtnome_KeyDown(object sender, KeyEventArgs e)
+        {
+            // Verifica se a tecla pressionada foi o Enter
+            if (e.KeyCode == Keys.Enter)
+            {
+                // Executa o clique do botão de login
+                btnadicionar.PerformClick();
+            }
+        }
+        private void ListBoxveiculo_KeyDown(object sender, KeyEventArgs e)
+        {
+            // Verifica se a tecla pressionada foi o Delete
+            if (e.KeyCode == Keys.Delete)
+            {
+                // Chama o código do seu botão remover
+                btnremover_Click(sender, e);
+            }
+        }
     }
 }

@@ -27,7 +27,7 @@ namespace AppLocadora2
         {
             if (pgbsplash.Value < 100)
             {
-                pgbsplash.Value = Math.Min(pgbsplash.Value + 17, 100);
+                pgbsplash.Value = Math.Min(pgbsplash.Value + 10, 100);
                 lblsplash.Text = pgbsplash.Value.ToString() + "%";
             }
             else

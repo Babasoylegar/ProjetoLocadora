@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Reserva = new System.Windows.Forms.Label();
             this.btnvoltar = new System.Windows.Forms.Button();
             this.btnlimpar = new System.Windows.Forms.Button();
             this.btnnovo = new System.Windows.Forms.Button();
@@ -36,7 +37,6 @@
             this.txtcodigo = new System.Windows.Forms.TextBox();
             this.lbldata = new System.Windows.Forms.Label();
             this.lblcodigo = new System.Windows.Forms.Label();
-            this.Reserva = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,6 +55,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(427, 301);
             this.panel1.TabIndex = 0;
+            // 
+            // Reserva
+            // 
+            this.Reserva.AutoSize = true;
+            this.Reserva.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reserva.Location = new System.Drawing.Point(162, 25);
+            this.Reserva.Name = "Reserva";
+            this.Reserva.Size = new System.Drawing.Size(109, 29);
+            this.Reserva.TabIndex = 18;
+            this.Reserva.Text = "Reserva";
+            this.Reserva.Click += new System.EventHandler(this.Reserva_Click);
             // 
             // btnvoltar
             // 
@@ -131,17 +142,6 @@
             this.lblcodigo.TabIndex = 0;
             this.lblcodigo.Text = "Código";
             // 
-            // Reserva
-            // 
-            this.Reserva.AutoSize = true;
-            this.Reserva.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Reserva.Location = new System.Drawing.Point(162, 25);
-            this.Reserva.Name = "Reserva";
-            this.Reserva.Size = new System.Drawing.Size(109, 29);
-            this.Reserva.TabIndex = 18;
-            this.Reserva.Text = "Reserva";
-            this.Reserva.Click += new System.EventHandler(this.Reserva_Click);
-            // 
             // frmreserva
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -150,6 +150,7 @@
             this.ClientSize = new System.Drawing.Size(963, 607);
             this.Controls.Add(this.panel1);
             this.Name = "frmreserva";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reserva";
             this.Load += new System.EventHandler(this.frmreserva_Load);
             this.panel1.ResumeLayout(false);

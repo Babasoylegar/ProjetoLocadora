@@ -125,6 +125,7 @@
             this.txtnome.Size = new System.Drawing.Size(105, 20);
             this.txtnome.TabIndex = 2;
             this.txtnome.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtnome.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtnome_KeyDown);
             // 
             // lblnome
             // 
@@ -146,6 +147,7 @@
             this.ListBoxveiculo.Size = new System.Drawing.Size(352, 212);
             this.ListBoxveiculo.TabIndex = 0;
             this.ListBoxveiculo.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.ListBoxveiculo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ListBoxveiculo_KeyDown);
             // 
             // frmveiculo
             // 
