@@ -52,5 +52,12 @@ namespace AppLocadora2
             frmveiculo.Show();
             this.Hide();
         }
+
+        private void btndiaria_Click(object sender, EventArgs e)
+        {
+            frmdiaria frmdiaria = new frmdiaria();
+            frmdiaria.Show();
+            this.Hide();
+        }
     }
 }

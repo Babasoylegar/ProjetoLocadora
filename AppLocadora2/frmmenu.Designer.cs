@@ -33,13 +33,13 @@
             this.btnreserva = new System.Windows.Forms.Button();
             this.btnfechar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Menu = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.btnveiculo = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.Menu = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -72,6 +72,7 @@
             this.btndiaria.TabIndex = 1;
             this.btndiaria.Text = "Diaria";
             this.btndiaria.UseVisualStyleBackColor = false;
+            this.btndiaria.Click += new System.EventHandler(this.btndiaria_Click);
             // 
             // btnreserva
             // 
@@ -118,6 +119,16 @@
             this.panel1.Size = new System.Drawing.Size(861, 523);
             this.panel1.TabIndex = 4;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // Menu
+            // 
+            this.Menu.AutoSize = true;
+            this.Menu.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Menu.Location = new System.Drawing.Point(320, 19);
+            this.Menu.Name = "Menu";
+            this.Menu.Size = new System.Drawing.Size(187, 29);
+            this.Menu.TabIndex = 16;
+            this.Menu.Text = "Menu Principal";
             // 
             // pictureBox5
             // 
@@ -182,16 +193,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
-            // 
-            // Menu
-            // 
-            this.Menu.AutoSize = true;
-            this.Menu.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Menu.Location = new System.Drawing.Point(320, 19);
-            this.Menu.Name = "Menu";
-            this.Menu.Size = new System.Drawing.Size(187, 29);
-            this.Menu.TabIndex = 16;
-            this.Menu.Text = "Menu Principal";
             // 
             // frmmenu
             // 

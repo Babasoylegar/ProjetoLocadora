@@ -41,3 +41,4 @@ C:\Users\Aluno\Desktop\ProjetoLocadora\AppLocadora2\obj\Debug\AppLocadora2.cspro
 C:\Users\Aluno\Desktop\ProjetoLocadora\AppLocadora2\obj\Debug\AppLocadora2.csproj.CoreCompileInputs.cache
 C:\Users\Aluno\Desktop\ProjetoLocadora\AppLocadora2\obj\Debug\AppLocadora2.exe
 C:\Users\Aluno\Desktop\ProjetoLocadora\AppLocadora2\obj\Debug\AppLocadora2.pdb
+C:\Users\Aluno\Desktop\ProjetoLocadora\AppLocadora2\obj\Debug\AppLocadora2.exe.config
